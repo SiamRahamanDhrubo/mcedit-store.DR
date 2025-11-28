@@ -1,0 +1,16 @@
+{
+  "store_name": "Mcedit Test Repository",
+  "version": 1,
+  "apps": [
+    {
+      "id": "com.mcedit.geometrydash",
+      "name": "Geometry Dash",
+      "repo_path": "applications/GeometryDash"
+    },
+    {
+      "id": "com.mcedit.minecraft",
+      "name": "Minecraft",
+      "repo_path": "applications/Minecraft"
+    }
+  ]
+}
