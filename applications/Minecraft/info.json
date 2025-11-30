@@ -1,0 +1,25 @@
+{
+  "id": "com.mcedit.minecraft",
+  "name": "Minecraft",
+  "version": "1.0.0",
+  "description": "Minecraft test build with support for both ARMv8a and older ARMv7 devices.",
+  "author": "Dhrubo",
+  "icon": "https://raw.githubusercontent.com/<USER>/<REPO>/main/applications/Minecraft/icon.png",
+  "variants": [
+    {
+      "name": "ARMv8a Edition",
+      "apk": "app-armv8a.apk",
+      "cpu_arch": "armv8a",
+      "min_sdk": 21,
+      "sha256": "PLACEHOLDER_HASH_ARMV8A"
+    },
+    {
+      "name": "Legacy Edition",
+      "apk": "app-legacy.apk",
+      "cpu_arch": "armv7a",
+      "min_sdk": 19,
+      "sha256": "PLACEHOLDER_HASH_LEGACY"
+    }
+  ],
+  "category": "Game"
+}
